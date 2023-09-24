@@ -1,4 +1,6 @@
-FROM microsoft/dotnet:latest
+## FROM microsoft/dotnet:latest
+
+FROM mcr.microsoft.com/dotnet/sdk:2.1
 
 RUN mkdir /project
 COPY . /project
